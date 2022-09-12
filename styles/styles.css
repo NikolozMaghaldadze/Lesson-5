@@ -211,3 +211,7 @@ body{
 .social-1{
     margin-right: 10px;
 }
+a{
+    text-decoration: none;
+    color: #CBD0D3;
+}
