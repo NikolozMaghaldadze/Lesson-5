@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height:3000px;
+    margin-top: 75px;
+}
+
+.navigation{
+    display: inline-block;
+    margin-left: 50px;
+}
+.nav-list-item{
+    color: #747474;
+    font-family: Helvetica;
+    font-size: 11px;
+}
+.active{
+    color: black;
+    font-family: Helvetica;
+    font-size: 11px;
+}
+.list-item{
+    display: inline-block;
+    margin-right:15px;
+}
+.header-wrapper{
+    padding: 15px;
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+}
+
+.portrait{
+    width:30px ;
+    height:30px ;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:40px;
+}
+.logo-image{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.first-section{
+    width:1162px ;
+    height:410px ;
+    margin:0 auto;
+}
+.top-section{
+    width:360px ;
+    height:350px ;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 40px;
+}
+
+.header-1{
+    font-size: 24px;
+    font-family: Helvetica;
+    margin-bottom:40px;
+    display: block;
+}
+.pic-header{
+    position: absolute;
+    top:113px;
+    left: auto;
+    margin-left: 40px;
+    margin-top: 65px;
+    color:white;
+    font-family: Helvetica;
+}
+
+.div-paragraph{
+    margin-top:66px;
+    color: #747474;
+    font-family: Roboto;
+}
+
+.time-logo{
+    margin-top:10px;
+}
+
+.no-idea{
+    color:#747474;
+    display: inline-block;
+    font-family: Roboto;
+}
+#image-id{
+    margin-right: 0px;
+}
