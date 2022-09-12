@@ -10,20 +10,24 @@ body{
 .navigation{
     display: inline-block;
     margin-left: 50px;
+    z-index: 2;
 }
 .nav-list-item{
     color: #747474;
     font-family: Helvetica;
     font-size: 11px;
+    z-index: 2;
 }
 .active{
     color: black;
     font-family: Helvetica;
     font-size: 11px;
+    z-index: 2;
 }
 .list-item{
     display: inline-block;
     margin-right:15px;
+    z-index: 2;
 }
 .header-wrapper{
     padding: 15px;
@@ -31,6 +35,8 @@ body{
     left:0;
     top:0;
     width: 100%;
+    background-color: #ffffff;;
+    z-index: 2;
 }
 
 .portrait{
@@ -39,10 +45,12 @@ body{
     display: inline-block;
     vertical-align: middle;
     margin-left:40px;
+    z-index: 2;
 }
 .logo-image{
     display: inline-block;
     vertical-align: middle;
+    z-index: 2;
 
 }
 
@@ -50,6 +58,7 @@ body{
     width:1162px ;
     height:410px ;
     margin:0 auto;
+    z-index: 1;
 }
 .top-section{
     width:360px ;
@@ -57,6 +66,7 @@ body{
     display: inline-block;
     vertical-align: middle;
     margin-right: 40px;
+    z-index: 1;
 }
 
 .header-1{
@@ -64,6 +74,7 @@ body{
     font-family: Helvetica;
     margin-bottom:40px;
     display: block;
+    z-index: 1;
 }
 .pic-header{
     position: absolute;
@@ -73,12 +84,14 @@ body{
     margin-top: 65px;
     color:white;
     font-family: Helvetica;
+    z-index: 1;
 }
 
 .div-paragraph{
     margin-top:66px;
     color: #747474;
     font-family: Roboto;
+    z-index: 1;
 }
 
 .time-logo{
@@ -89,7 +102,75 @@ body{
     color:#747474;
     display: inline-block;
     font-family: Roboto;
+    z-index: 1;
 }
 #image-id{
     margin-right: 0px;
+}
+
+
+.right-side{
+    width: 360px;
+    height: 896px;
+    display:inline-block ;
+    vertical-align: top;
+    margin-left:20px;
+    z-index: 1;
+}
+
+.top-img{
+    margin-bottom: 102px;
+    z-index: 1;
+}
+
+.mid-img{
+    margin-bottom: 102px;
+    z-index: 1;
+}
+
+.bot-image{
+    margin-bottom: 64px;
+    z-index: 1;
+}
+
+.left-side{
+    width: 760px;
+    height:900px;
+    display:inline-block ;
+    vertical-align: top;
+    margin-right: 20px;
+    z-index: 1;
+}
+
+.second-section{
+    width:1160px ;
+    height:900px ;
+    margin:0 auto;
+    z-index: 1;
+}
+.first-nature{
+    margin-bottom:40px;
+    z-index: 1;
+}
+
+.banner{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    margin-right:400px;
+    z-index: 1;
+}
+.nature-header{
+    width: 280px;
+    height:16px;
+    position: absolute;
+    top:40%;
+    left: 40%;
+    right:50%;
+    bottom: 30%;
+    text-align: center;
+    color:white;
+    font-family: Helvetica;
+    font-size:22px;
+    z-index: 1;
 }
